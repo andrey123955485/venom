@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 0;
+    max-width: 1200px;
+    height: 900px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+body{
+    background-image: url(/img/fon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.logo{
+    width: 46px;
+    height: 71px;
+}
+
+
+ul{
+    margin-left: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 50%;
+}
+
+
+h1{
+    font-size: 24px;
+    color: #ffffff;
+    opacity: 80%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.glavna9 p {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 80%;
+    width: 420px;
+    height: 66px;
+    margin-bottom: 30px;
+}
+
+.text_1 {
+    width: 423px;
+    height: 66px;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 70%;
+    margin-bottom: 70px;
+}
+
+
+.role{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.role_1 h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.role_1 p{
+    width: 133px;
+    height: 110px;
+}
+
+.role_2 p{
+    padding-top: 30px;
+    width: 133px;
+    height: 110px;
+    
+}
+
+.block_play{
+    width: 356px;
+    height: 205px;
+    border-radius: 5px;
+    background-image: url(./img/Rectangle\ 2.jpg);
+}
+
+.btn_play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 77px;
+    cursor: pointer;
+}
+
+.glavna9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_left{
+    width: 362px;
+    height: 543px;
+    border-radius: 5px;
+    background-image: url(./img/image\ 4.jpg);
+}
